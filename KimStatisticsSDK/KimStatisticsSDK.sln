@@ -10,6 +10,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.Test", "99.Test", "{46B5E899-630D-4683-8EF0-87C700C3A5D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Core", "01.Core", "{0E9547E8-E57C-454E-BC8B-C06CE29DF13B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Encapsulation", "02.Encapsulation", "{999DF247-D056-403D-8576-1AEE2F8E873A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Repository", "03.Repository", "{3369CCC5-8153-443A-BFAD-9E6CE0B30067}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Service", "04.Service", "{DC086F4B-7FEB-4802-86E0-20626068FFC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Midware", "05.Midware", "{2AE1BF3C-916A-4B9B-97A4-824E38BFAE35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Frontend", "06.Frontend", "{20009A8A-6613-4D6B-A2F7-25307989E715}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
