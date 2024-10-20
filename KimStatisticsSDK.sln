@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Frontend", "06.Frontend"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StastisticsCore", "StastisticsCore\StastisticsCore.csproj", "{14483BCA-7880-474C-B3F4-83B85C74D4E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTest_StatisticsCore", "NTest_StatisticsCore\NTest_StatisticsCore.csproj", "{0E8439DA-01B0-418D-9ACC-F18A59EDF2A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,12 +39,17 @@ Global
 		{14483BCA-7880-474C-B3F4-83B85C74D4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14483BCA-7880-474C-B3F4-83B85C74D4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14483BCA-7880-474C-B3F4-83B85C74D4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8439DA-01B0-418D-9ACC-F18A59EDF2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8439DA-01B0-418D-9ACC-F18A59EDF2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8439DA-01B0-418D-9ACC-F18A59EDF2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8439DA-01B0-418D-9ACC-F18A59EDF2A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{14483BCA-7880-474C-B3F4-83B85C74D4E5} = {0E9547E8-E57C-454E-BC8B-C06CE29DF13B}
+		{0E8439DA-01B0-418D-9ACC-F18A59EDF2A0} = {46B5E899-630D-4683-8EF0-87C700C3A5D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D95F872-0B18-4F79-B4AC-E2058EB7CB40}
