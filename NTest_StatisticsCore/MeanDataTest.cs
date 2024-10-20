@@ -1,5 +1,3 @@
-using StastisticsCore;
-
 namespace NTest_StatisticsCore
 {
     [TestFixture]
@@ -12,7 +10,7 @@ namespace NTest_StatisticsCore
 
         [Test]
         //[TestCase("[{X=1,Y=2}]",)]
-        public void Test1(List<Data> data)
+        public void Test1(/*List<Data> data*/)
         {
             Assert.Pass();
         }
