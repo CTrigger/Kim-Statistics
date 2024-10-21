@@ -7,7 +7,7 @@ namespace StastisticsCore
     {
         #region Properties
         public List<Data> Dataset { get; set; }
-        public double SumOfFrequencies { get => Dataset.Sum(d => d.X); }
+        public double SumOfFrequencies { get => Dataset.Sum(d => d.Y); }
         #endregion
 
         #region Ctor

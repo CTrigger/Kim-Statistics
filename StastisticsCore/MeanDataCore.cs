@@ -5,7 +5,7 @@ namespace StastisticsCore
     public class MeanDataCore : DataCore
     {
         public double WeightedAritmeticMean { get => Dataset.Sum(d => (d.Y * d.X) / SumOfFrequencies); }
-        public double WeightedGeometricMean { get => Dataset.Aggregate(0.0, (acc, d) => acc * Math.Pow(d.X, d.Y / SumOfFrequencies)); }
+        // To fix public double WeightedGeometricMean { get => Dataset.Aggregate(0.0, (acc, d) => acc * Math.Pow(d.X, d.Y / SumOfFrequencies)); }
         public double WeightedHarmonicMean { get => SumOfFrequencies / Dataset.Sum(d => d.Y / d.X); }
         public double WeightedQuadraticMean { get => Dataset.Sum(d => (d.Y * Math.Pow(d.X, 2)) / SumOfFrequencies); }
         public double RootMeanSquare { get => Math.Sqrt(WeightedQuadraticMean); }
